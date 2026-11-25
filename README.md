@@ -20,7 +20,7 @@ python -m compileall -q yapzeta_verifier tests
 python -m pytest -q
 ```
 
-The maintainer reports a local run with Python 3.11.9, NumPy 2.4.6, and pytest 9.2.0: compilation completed without errors and all four synthetic API tests passed (`4 passed in 0.09s`). See [REPRODUCIBILITY.md](REPRODUCIBILITY.md) for provenance and the earlier isolated regression results.
+The maintainer reports a local run with Python 3.11.9, NumPy 2.4.6, and pytest 9.2.0: compilation completed without errors and all seven synthetic API tests passed (`7 passed in 0.09s`). See [REPRODUCIBILITY.md](REPRODUCIBILITY.md) for provenance and the earlier isolated regression results.
 
 Minimal example:
 

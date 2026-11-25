@@ -1,12 +1,20 @@
 cff-version: 1.2.0
-title: "YAPZETA Verifier"
 message: "If you use this software, please cite it as below."
+title: "YAPZETA Verifier"
 type: software
 authors:
   - family-names: Derin
     given-names: Kartal
-version: 0.1.0
+version: "0.1.0"
 abstract: >-
-  Research preview of a model-independent Python component for checking
-  claims against supplied evidence chunks.
+  Research preview of a model-independent Python component
+  for checking claims against supplied evidence chunks.
 license: Apache-2.0
+repository-code: "https://github.com/KDerin/yapzeta-verifier"
+keywords:
+  - artificial intelligence
+  - claim verification
+  - evidence verification
+  - agentic AI
+  - decision intelligence
+  - research software

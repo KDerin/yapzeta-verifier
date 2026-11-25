@@ -12,3 +12,14 @@ The candidate's core runtime dependency is NumPy. The optional NLI path imports 
 This is a local metadata/license-file review of the installed environment, not a legal opinion or a current vulnerability-database audit. Runtime version constraints are compatibility ranges, not lockfile pins. The reported pytest version is the one used for the successful local test run. CI uses Python 3.11. The NLI model files may have separate licenses and must be checked independently before use or redistribution.
 
 No license file was present in the inspected YAPZETA source root for the verifier package. The rights holder approved Apache-2.0 for the standalone source and original synthetic tests only. Third-party distribution rights still require review.
+
+## NumPy license verification
+
+- Installed version: 2.4.6
+- Core project license: BSD-3-Clause
+- Installed distribution license expression: BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0
+- License information was verified using installed Python package metadata.
+- NumPy binaries are not bundled in this source release.
+- Dependency installation is performed separately by pip.
+- Core requirements audit reported no known vulnerabilities on 2026-11-25.
+- Optional NLI dependencies have not undergone the same audit.
