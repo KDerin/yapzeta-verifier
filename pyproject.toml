@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yapzeta-verifier"
+version = "0.1.0"
+description = "Research preview of a rule-based claim and evidence verifier"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.24,<3"]
+authors = [{name = "Kartal Derin"}]
+optional-dependencies = {test = ["pytest>=9,<10"]}
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Programming Language :: Python :: 3.11",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[tool.setuptools.packages.find]
+include = ["yapzeta_verifier*"]

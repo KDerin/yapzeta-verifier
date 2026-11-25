@@ -1,0 +1,4 @@
+# Optional local NLI path only; install only after reviewing model/runtime licenses.
+-r requirements.txt
+onnxruntime>=1.17,<2
+tokenizers>=0.15,<1

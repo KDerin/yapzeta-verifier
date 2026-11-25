@@ -1,0 +1,22 @@
+name: Tests
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    env:
+      YZ_VERIFY_NLI: "0"
+      YZ_VERIFY_LLM: "0"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: python -m pip install -e ".[test]"
+      - run: python -m compileall -q yapzeta_verifier tests
+      - run: python -m pytest -q
