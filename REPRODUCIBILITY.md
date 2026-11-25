@@ -36,3 +36,7 @@ The validation run used Python 3.11.9 and NumPy 2.4.6. NLI was disabled (`YZ_VER
 ## RC2 validation
 
 The RC2 public synthetic suite was run in a separate Linux environment with Python 3.13.5, NLI and LLM disabled: 7 passed in 0.07s. Compilation completed without errors. This is a functional test, not an accuracy benchmark. The original 63-case private regression was not rerun for RC2.
+
+## Final release validation
+
+On 2026-11-25, all seven synthetic tests passed on Windows with Python 3.11.9 in 0.09 seconds. GitHub Actions runs 45525050953, 45525574071 and 45526350099 completed successfully. The core dependency audit reported no known vulnerabilities. These results do not establish scientific accuracy or production readiness.
