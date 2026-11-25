@@ -1,5 +1,7 @@
 # YAPZETA Verifier (research preview)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24519190.svg)](https://doi.org/10.5281/zenodo.24519190)
+
 **Version:** 0.1.0 · **Status:** research preview; not production validated
 
 YAPZETA Verifier is a standalone, model-independent Python component for checking claim/evidence pairs against supplied text chunks. It combines deterministic domain checks, evidence quotation checks, source metadata rules, and an optional local natural-language-inference (NLI) signal. It does not fetch sources, build an index, call a language model, or include YAPZETA's main application.
